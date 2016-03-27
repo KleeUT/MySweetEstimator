@@ -1,0 +1,23 @@
+body{
+    font-size:large;
+}
+
+img.icon{
+    width:100px;
+    height:100px;
+}
+
+div.greenWell{
+    background: #DFD;
+}
+div.blueWell{
+    background: #558;
+}
+div.purpleWell{
+    background-color: #858;
+}
+
+div.yellowWell{
+    background-color: #FFA
+;
+}
