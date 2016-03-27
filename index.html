@@ -1,40 +1,19 @@
-<!DOCTYPE html>
-<html ng-app="homeApp">
-<head>
-    <!-- SCROLLS -->
-    <!-- load bootstrap and fontawesome via CDN -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- SPELLS -->
-    <!-- load angular and angular route via CDN -->
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-    <script src="./js/script.js"></script>
-</head>
-<body>
-
-<!-- HEADER AND NAVBAR -->
-<header>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">KleeUT</a>
+<html>
+    <head>
+        <title>
+            kleeut.com
+        </title>
+        <script  src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="ReactMount">
+            Home page for Klee Thomas, kleeut. 
+            Written using React and React Router. 
+            http://kleeut.com
+            http://blog.kleeut.com
+            https://www.twitter.com/kleeut
+            klee dot ut at gmail dot com
             </div>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i> About Me</a></li>
-                <li><a href="#findMe"><i class="fa fa-search"></i> Find Me</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<div id="main">
-<div ng-view>
-
-</div>
-</div>
-
-</body>
+    </body>
+    <script type="text/javascript" src='/bundle.js'></script>
 </html>
