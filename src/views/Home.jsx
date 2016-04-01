@@ -20,7 +20,7 @@ export default class Home extends React.Component {
         {data.map(item => {
             console.log(item);
             return (
-            <div className="col-xs-12 col-md-3 col-lg-3" style={{background:item.color, margin:"2rem", padding:"2rem", textAlign:'center', border:'1px solid #CCC'}} key={item.key}>
+            <div className="col-xs-12 col-sm-5 col-md-3" style={{background:item.color, margin:"2rem", padding:"2rem", textAlign:'center', border:'1px solid #CCC'}} key={item.key}>
                 <div className="card-block">
                 {ATagOrLink(item.url, (
                     <span>

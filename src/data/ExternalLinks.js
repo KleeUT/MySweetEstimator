@@ -13,4 +13,11 @@ export default [
         image: "/img/codersGroup.png", 
         color:'#444'  
     },
+    { 
+        key:"GitHub",
+        url:"https://github.com/kleeut", 
+        title:"GitHub", 
+        image: "/img/GitHub.png", 
+        color:'#AAA'  
+    },
 ]
