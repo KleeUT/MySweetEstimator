@@ -24882,7 +24882,7 @@
 	                    console.log(item);
 	                    return _react2.default.createElement(
 	                        'div',
-	                        { className: 'col-xs-12 col-md-3 col-lg-3', style: { background: item.color, margin: "2rem", padding: "2rem", textAlign: 'center', border: '1px solid #CCC' }, key: item.key },
+	                        { className: 'col-xs-12 col-sm-5 col-md-3', style: { background: item.color, margin: "2rem", padding: "2rem", textAlign: 'center', border: '1px solid #CCC' }, key: item.key },
 	                        _react2.default.createElement(
 	                            'div',
 	                            { className: 'card-block' },
@@ -25122,6 +25122,12 @@
 	    title: "Newcaslte Coders Group",
 	    image: "/img/codersGroup.png",
 	    color: '#444'
+	}, {
+	    key: "GitHub",
+	    url: "https://github.com/kleeut",
+	    title: "GitHub",
+	    image: "/img/GitHub.png",
+	    color: '#AAA'
 	}];
 
 /***/ },
