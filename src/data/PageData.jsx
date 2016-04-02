@@ -1,5 +1,5 @@
 import  React  from 'react';
-import {a} from 'react-router';
+import Estimator from './Estimator.jsx';
 export default [
     { 
         key:"about", 
@@ -22,7 +22,8 @@ export default [
             </ul>
         </div>)}}, 
         image: "/img/avatar.jpeg", 
-        color:'#DE9'  },
+        color:'#DE9'  
+    },
     { 
         key: "contact", 
         title: "Contact Me", 
@@ -40,5 +41,13 @@ export default [
                         </ul>
                     </div>)}}, 
         image:"/img/contact.png", 
-        color:'#AFA'  },
+        color:'#AFA'  
+    },
+    {
+        key: "estimator",
+        title: "My Sweet Estimator",
+        text: Estimator,
+        image: "/img/dice.png", 
+        color: '#FBE'  
+    }
 ];
