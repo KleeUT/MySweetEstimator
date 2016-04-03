@@ -20,4 +20,11 @@ export default [
         image: "/img/GitHub.png", 
         color:'#AAA'  
     },
+    {
+        key:"LinkedIn",
+        url:"https://au.linkedin.com/in/klee-thomas-72613066",
+        title:"LinkedIn",
+        image:"/img/LinkedIn.png",
+        color:"#666"
+    }
 ]
