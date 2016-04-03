@@ -25184,17 +25184,17 @@
 	                ),
 	                _react2.default.createElement(
 	                    "div",
-	                    null,
+	                    { style: { textAlign: 'center' } },
 	                    _react2.default.createElement(
 	                        "h2",
 	                        null,
 	                        this.state.estimate
+	                    ),
+	                    _react2.default.createElement(
+	                        "button",
+	                        { className: "btn btn-primary", onClick: this.GenerateEstimate.bind(this) },
+	                        "Generate"
 	                    )
-	                ),
-	                _react2.default.createElement(
-	                    "button",
-	                    { className: "btn btn-primary", onClick: this.GenerateEstimate.bind(this) },
-	                    "Generate"
 	                )
 	            );
 	        }
@@ -25232,6 +25232,12 @@
 	    title: "GitHub",
 	    image: "/img/GitHub.png",
 	    color: '#AAA'
+	}, {
+	    key: "LinkedIn",
+	    url: "https://au.linkedin.com/in/klee-thomas-72613066",
+	    title: "LinkedIn",
+	    image: "/img/LinkedIn.png",
+	    color: "#666"
 	}];
 
 /***/ },
