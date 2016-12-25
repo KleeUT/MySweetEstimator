@@ -7,6 +7,13 @@ export default [
         color:'#AAF'  
     },
     { 
+        key:"meetingTimer",
+        url:"https://mysweet-meeting-timer.herokuapp.com/", 
+        title:"My Sweet Meeting Timer", 
+        image: "/img/clock.png", 
+        color:'#993399'  
+    },
+    { 
         key:"ncgau",
         url:"http://ncg.asn.au", 
         title:"Newcaslte Coders Group", 
