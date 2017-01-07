@@ -25223,7 +25223,7 @@
 	}, {
 	    key: "meetingTimer",
 	    url: "https://mysweet-meeting-timer.herokuapp.com/",
-	    title: "My Sweet Meeting Timer",
+	    title: "$ Meeting Timer",
 	    image: "/img/clock.png",
 	    color: '#993399'
 	}, {
