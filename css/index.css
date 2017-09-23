@@ -11,7 +11,7 @@
 }
 
 .background--whiskey{
-    background-image: url("../../img/whiskey.jpg");
+    background-image: url("../img/whiskey.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -19,7 +19,7 @@
 }
 
 .background--orangeflower { 
-    background-image: url("../../img/orangeflower.jpg");
+    background-image: url("../img/orangeflower.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -27,7 +27,7 @@
 }
 
 .background--knife { 
-    background-image: url("../../img/knife.jpg");
+    background-image: url("../img/knife.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -35,7 +35,7 @@
 }
 
 .background--bolts { 
-    background-image: url("../../img/bolts.jpg");
+    background-image: url("../img/bolts.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
